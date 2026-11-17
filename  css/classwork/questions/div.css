@@ -1,0 +1,28 @@
+.parent{
+    width: 500px;
+    height:500px;
+    border-radius: 8%;
+    border: solid black 5px;
+    background-color: blue;
+    position: relative;
+    top: 100px;
+  
+}
+
+.child{
+  
+    width: 200px;
+    height: 180px;;
+    border-radius: 10%;
+    border: solid black 5px;
+    position :relative;
+    background-color: green;
+    position: absolute;
+    bottom: 0px;
+
+}
+
+p{
+    color: yellow;
+    text-align: right;
+}

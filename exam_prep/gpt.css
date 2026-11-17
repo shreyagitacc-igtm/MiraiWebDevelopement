@@ -1,0 +1,67 @@
+/* .parent{
+    display: flex;
+    background-color: orange;
+    justify-content: space-around;
+    border-radius:20%;
+    height: 100px;
+
+}
+
+.parent div{
+    display: flex;
+    background-color:purple;
+    padding: 40px;
+    border-radius: 20%;
+} */
+
+
+
+
+
+
+
+/* .parent{
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+    align-items: stretch;
+    margin: 0;
+  
+}
+.parent div{
+    border: 1px, black;
+    border-style:solid;
+    margin:10px;
+    background-color: white;
+  
+
+
+}
+#fname{
+    width: 100%;
+} */
+
+
+
+
+
+.graph{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    background-color: lightseagreen;
+    width: 800px;
+    gap: px;
+   
+}
+
+.graph div{
+    display: flex;
+    height: 100px;
+    margin: 10px;
+    border: 2px, solid, white;
+    border-radius: 7%;
+    /* flex-grow: 1; */
+    place-items: center;
+    /* padding-left: 30px; */
+}
