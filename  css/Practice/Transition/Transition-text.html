@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            display: flex;
+            font-size: 24px;
+            color: black;
+            transition: font-size 2s, color 1s, transform 2s;
+           
+        }
+        h1:active{
+            transform:rotate(360deg);
+            font-size: 35px;
+            color: palevioletred;
+        }
+
+        #one{
+            display: flex;
+            background-color: black;
+            height: 100px;
+            width: 200px;
+            transition-timing-function: cubic-bezier(0.23, 2, 0.320, 1);
+            transition: width 2s, background-color 2s, border-radius 5s , height 2s, transform 4s , translate 4s;
+            
+
+;
+        }
+        #one:hover{
+            /* width: 500px; */
+            /* border-radius: 100%; */
+            /* height: 500px; */
+            background-color: rgb(51, 36, 150);
+            transform: rotatex(180deg);
+            /* translate: 400px 300px; */
+
+        }
+    
+        /* #name:hover{
+            background-color: gold;
+            height: 300px;
+        }
+        #child{
+            color: blue;
+            text-align: center;
+            position: relative;
+            transition: translate 3s color 3s;
+        }
+        #child:active{
+            translate: 50px 300px;
+            color: aquamarine;
+        } */
+    </style>
+</head>
+<body>
+    <h1>Shreya</h1>
+    <div id="one"></div>
+    <!-- <div id="name">
+        <div id="child">Sphere</div>
+    </div> -->
+</body>
+</html>

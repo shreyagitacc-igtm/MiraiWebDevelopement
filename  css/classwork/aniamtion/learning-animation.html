@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            display: flex;
+            width: 200px;
+            height: 200px;
+            animation-duration: 7s;
+            position: relative; 
+            animation-iteration-count: infinite;
+            /* background-color: blue; */
+            /* transition: height 4s; */
+            /* animation-name: MyAnimation; */
+            /* animation-direction: reverse; */
+          
+        }
+        #box1{
+            animation: MyAnimation1;
+            background-color: blueviolet;
+            animation-duration: 7s;
+            animation-delay: 3s;
+           
+        }
+        #box2{
+            animation: MyAnimation2;
+            background-color: rgb(226, 43, 122);
+            animation-duration: 7s;
+            animation-delay: 1s;
+        }
+        #box3{
+            animation: MyAnimation3;
+            background-color: aquamarine;
+            animation-duration: 7s;
+            animation-delay: 4s;
+
+        }
+     
+        @keyframes MyAnimation1{
+    
+        0%{background-color: rgb(173, 17, 69); left: 10px; top: 10px; border-radius:0%; }
+        25%{background-color: rgb(177, 10, 195); left:900px ; top: 0px; border-radius: 25%; transform: rotatex(360deg); }
+        50%{background-color: rgb(91, 201, 91); top: 500px; left: 10px; border-radius: 45%;}
+        100%{background-color: rgb(91, 65, 205); top: 500px; left: 900px; border-radius: 100%;}
+        }
+          @keyframes MyAnimation2{
+    
+        0%{background-color: rgb(134, 66, 89); left: 10px; top: 10px; border-radius:0%; }
+        25%{background-color: rgb(144, 71, 152); left:900px ; top: 0px; border-radius: 25%; transform: rotatey(360deg); }
+        50%{background-color: rgb(73, 136, 73); top: 500px; left: 10px; border-radius: 45%;}
+        100%{background-color: rgb(85, 71, 148); top: 500px; left: 900px; border-radius: 100%;}
+        }
+           @keyframes MyAnimation3{
+    
+        0%{background-color: rgb(255, 16, 95); left: 10px; top: 10px; border-radius:0%; }
+        25%{background-color: rgb(232, 21, 255); left:900px ; top: 0px; border-radius: 25%; transform: rotatez(360deg); }
+        50%{background-color: rgb(3, 108, 3); top: 500px; left: 10px; border-radius: 45%;}
+        100%{background-color: rgb(34, 3, 170); top: 500px; left: 900px; border-radius: 100%;}
+        }
+         
+       
+
+      
+    </style>
+</head>
+<body>
+   
+    <div id="box1"></div>
+    <div id="box2"></div>
+    <div id="box3"></div>
+    
+</body>
+</html>
